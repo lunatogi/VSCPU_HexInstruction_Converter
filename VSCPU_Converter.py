@@ -107,7 +107,10 @@ def instruction_list_to_memory():
                         print("")
                     
                     prevLocMode = 1
-                instruction = line[:-1]
+                if (line[-1].isdigit == False):
+                    instruction = line[:-1]
+                else:
+                    instruction = line
                 memoryLoc = memoryLocCounter
                 if ((abs(int(memoryLoc) - prevLoc) > 1) and (spaced == False)):
                     print("")
