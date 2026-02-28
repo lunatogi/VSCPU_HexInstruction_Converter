@@ -1,3 +1,4 @@
+Converts human readable assembly code into a 32-bit hexadecimal number or vice versa. This can be done individually or by retrieving a list from a .txt file.
 <p> (1) Hex to instruction 
  <br> Single convert from 32-bit hexadecimal number to VSCPU assembly code.</p>
 <p>(2) Instruction to hex
